@@ -31,7 +31,7 @@ const Movie = ({ id, title, rating, poster }) => {
   //   const card = {};
   //   const title = {};
   return (
-    <Link to={`/details/${id}/`}>
+    <Link to={`/details/${id}`}>
       <Card background={poster}>
         <Title>
           {title} / {rating}⭐️
